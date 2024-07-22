@@ -1,0 +1,51 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# TypeScript
+dist/
+*.tsbuildinfo
+
+# Environment variables
+# .env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database
+*.sqlite
+*.sql
+*.pgdata
+
+# Docker
+docker-compose.override.yml
+docker-compose*.log
+# docker-compose.yml
+
+# IDE/Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.DS_Store
+
+# System files
+Thumbs.db
+.DS_Store
+
+# MacOS
+.DS_Store
+*.DS_Store
+**/.DS_Store
+
+# Miscellaneous
+coverage/
+tmp/
+temp/
+*.tmp
